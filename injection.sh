@@ -9,5 +9,5 @@ do
       then
         # Assign Env Variable to Exposed Port on Host of Docker Container
         HOST_PORT = ${arr[$i+1]}
-    fin
+    fi
 done
