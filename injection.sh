@@ -1,4 +1,4 @@
-echo "Working" 
+echo "Injection.sh Script Running" 
 
 # Split $NIRMATA_SERVICE_PORTS into array
 space_delim=$(echo $NIRMATA_SERVICE_PORTS | sed "s/:/ /g")
@@ -12,3 +12,5 @@ do
         export HOST_PORT=${arr[$i+1]}
     fi
 done
+
+echo "Injection.sh Script Finished" 
