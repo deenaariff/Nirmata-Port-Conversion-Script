@@ -8,6 +8,6 @@ do
     if (${arr[$i]} == "HTTP")
       then
         # Assign Env Variable to Exposed Port on HOST
-        HOST_PORT = ${arr[2]}
+        HOST_PORT = ${arr[$i+1]}
     fin
 done
