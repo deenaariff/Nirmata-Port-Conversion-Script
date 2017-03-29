@@ -3,7 +3,7 @@ arr=($line)
 
 for((i=0;i<${#arr[@]};i++))
 do
-    if ${arr[$i]}
+    if (${arr[$i]} == "HTTP")
       then
         HOST_PORT = ${arr[2]}
     fin
