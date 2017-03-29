@@ -1,3 +1,5 @@
+echo "Working" 
+
 # Split $NIRMATA_SERVICE_PORTS into array
 space_delim=$(echo $NIRMATA_SERVICE_PORTS | sed "s/:/ /g")
 arr=($space_delim)
