@@ -5,9 +5,8 @@ arr=($space_delim)
 # Search through Array for Name of Exposed Port ("HTTP");
 for((i=0;i<${#arr[@]};i++))
 do
-    if (${arr[$i]} == "HTTP")
-      then
+    if [ ${arr[$i]} = "HTTP" ]; then
         # Assign Env Variable to Exposed Port on Host of Docker Container
-        HOST_PORT = ${arr[$i+1]}
+        export HOST_PORT=${arr[$i+1]}
     fi
 done
