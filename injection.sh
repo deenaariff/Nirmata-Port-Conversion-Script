@@ -7,7 +7,7 @@ for((i=0;i<${#arr[@]};i++))
 do
     if (${arr[$i]} == "HTTP")
       then
-        # Assign Env Variable to Exposed Port on HOST
+        # Assign Env Variable to Exposed Port on Host of Docker Container
         HOST_PORT = ${arr[$i+1]}
     fin
 done
