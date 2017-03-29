@@ -3,5 +3,5 @@ Small Script to aid in service dependency injection for host ports of microservi
 
 # Usage
 
-Add this script to your Dockerfile, to enable the script to be called by the run command in the Nirmata Application Bluepring. 
+Add this script to your Dockerfile to enable the script to be called by the run command in the Nirmata Application Bluepring. 
 
