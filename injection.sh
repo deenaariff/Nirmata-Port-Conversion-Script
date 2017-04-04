@@ -9,8 +9,8 @@ for((i=0;i<${#arr[@]};i++))
 do
     if [ ${arr[$i]} = "HTTP" ]; then
         # Assign Env Variable to Exposed Port on Host of Docker Container
-        export HOST_PORT=${arr[$i+1]}
+        HOST_PORT=${arr[$i+1]}
     fi
 done
 
-echo "Injection.sh Script Finished" 
+exec java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $HOST_PORT
