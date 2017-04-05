@@ -6,7 +6,7 @@ Add this script to your Dockerfile to enable the script to be called by the run 
 
  `ADD https://raw.githubusercontent.com/deenaariff/Nirmata-Port-Conversion-Script/master/injection.sh injection.sh`
 
-Ensure the script has been given permissions 
+Ensure the script has been given permissions.
 
 `chmod +x injection.sh`
 
