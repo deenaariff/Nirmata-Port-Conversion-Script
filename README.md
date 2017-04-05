@@ -9,7 +9,7 @@ Add this script to your Dockerfile to enable the script to be called by the run 
 
 Ensure the script has been given permissions.
 
-`chmod +x injection.sh`
+RUN bash -c `chmod +x injection.sh`
 
 Write your own run command for your binary, and pass in the host IP and host ports as arguments
 
