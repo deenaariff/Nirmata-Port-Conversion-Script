@@ -1,5 +1,5 @@
 # Nirmata-Port-Conversion-Script
-A bash Script to aid in service dependency injection for host ports of microservices hosted on the Nirmata Platform. 
+A Bash Script to enable injection of host information as String arguments when running containers on the Nirmata Platform.
 
 # Usage
 
