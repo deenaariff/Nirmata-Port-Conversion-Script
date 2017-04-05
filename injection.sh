@@ -13,4 +13,4 @@ do
     fi
 done
 
-exec java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $HOST_PORT
+java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $HOST_PORT
