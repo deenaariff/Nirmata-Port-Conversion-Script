@@ -1,7 +1,7 @@
 # Nirmata-Port-Conversion-Script
 A Bash Script to enable injection of host information as String arguments when running containers on the Nirmata Platform.
 
-- Makes use of wait-for-it orchestraton script by vishnubob. Can be found here https://github.com/vishnubob/wait-for-it.
+- Makes use of wait-for-it orchestraton script by GitHub user vishnubob. Can be found here https://github.com/vishnubob/wait-for-it.
 
 # Usage
 
