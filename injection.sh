@@ -14,4 +14,4 @@ do
 done
 
 #Write your own command here
-java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $NIRMATA_HOST_ADDRESS $HOST_PORT
+java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $HOST_PORT
