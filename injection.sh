@@ -14,4 +14,4 @@ do
 done
 
 #Write your own command here
-java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $HOST_PORT
+./wait-for-it.sh $EUREKA_URL --timeout=60 -- java -Djava.security.egd=file:/dev/./urandom -jar /app.jar $HOST_PORT
